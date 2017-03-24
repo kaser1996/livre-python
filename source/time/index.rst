@@ -1,6 +1,8 @@
 ===============
-Time/DateTime. Par Kaser Nicolas
+Time/DateTime. 
 ===============
+
+*Par Nicolas Kaser*
 
 --------------
 Introduction
