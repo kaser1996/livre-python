@@ -40,12 +40,6 @@ Donc:
 
 Affichera : 1490354301.5397666
 
-.. code-block:: pycon
-
-   >>> time.time()
-   14903...
-
-
 
 La fonction ctime([secs]), quand elle est appellée sans paramètre retourne la date d'ajourd'hui au format texte.
 
@@ -58,7 +52,6 @@ Affichera : 'Thu Mar 23 12:34:03 2017'
 
 
 En revanche avec un paramètre qui correspond à un nombre de secondes, ça affichera la date de l'Epoch après que ce nombre de secondes se soit écoulé.
-
 
 
 .. code:: python 
@@ -154,19 +147,17 @@ asctime(localtime(secs)): Tue Feb 17 17:03:38 2009
 
 
 Il existe également un moyen de faire attendre le programme avec le module Time. 
-Il s'agit de Time.sleep(secs) avec secs = le nombre de secondes à attendre. Il bloquera ainsi le thread appellant pendant ce laps de temps. Attention. Contrairement à d'autres langages, l'argument est bien en secondes et pas en millisecondes.
+Il s'agit de Time.sleep(secs) avec secs = le nombre de secondes à attendre. Il bloquera ainsi le thread appellant pendant ce laps de temps.
 
 
 .. code:: python
->>>Time.sleep(1000)
-
-En c# par exemple cette ligne bloque le thread en question pendant une seconde. Ici en python il le bloque bien pendant 1000 secondes !!
+>>>Time.sleep(10)
 
 
 ---------
 Datetime
 ---------
-Datetime permet également de manipuler des dates et des temps. Il faut aussi importer la librairie datetime :
+Datetime permet également de manipuler des dates et des temps.
 
 .. code:: python
 >>>import datetime
@@ -229,9 +220,8 @@ Affichera :
 - tzinfo
 Classe abstraite utilisée par datetime et time pour fournir une notion personnalisable de réglage de l'heure (par exemple, pour l'heure d'été).
 
-
-- timezone
-Classe qui implémente tzinfo
+Exemple de classe tzinfo_.
+.. _Python: https://docs.python.org/2.3/lib/datetime-tzinfo.html
 
 
 La méthode strftime(format) converti une date en string et permet le formatage de celle-ci. Strptime(format) permet,quand à elle, de convertir en datetime.
