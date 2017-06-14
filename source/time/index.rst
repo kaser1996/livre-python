@@ -234,5 +234,8 @@ Pour conclure on peut dire que Time et DateTime sont des modules tout de même a
 
 Time en revanche à accès à l'horloge, aux données CPU et également à son thread parent (Time.sleep(x) et l'équivalent d'un thread.sleep(x) dans d'autre languages). 
 
+Documentation officielle :
 
+intersphinx_mapping = {'time': ('https://docs.python.org/2/library/time.html', None)}
+intersphinx_mapping = {'datetime': ('https://docs.python.org/2/library/datetime.html', None)}
 
