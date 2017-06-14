@@ -103,8 +103,9 @@ N/A ----------> tm_zone ----------> abbreviation of timezone name
 
 N/A ----------> tm_gmtoff ----------> offset east of UTC in seconds  
 
+Ressemblance : https://fr.wikipedia.org/wiki/Time.h
 
-Contrairement au langage C, la valeur du mois se donne en valeur entre 1 et 12 alors qu'en C c'est entre 0 et 11.
+Contrairement au langage C, la valeur du mois se donne en valeur entre 1 et 12 alors qu'en python c'est entre 0 et 11.
 
 La fonction Time.localtime([secs]) retourne la même chose que Time.ctime([secs]) mais cette fois ci au format struct_time.
 
@@ -236,7 +237,6 @@ Time en revanche à accès à l'horloge, aux données CPU et également à son t
 
 Documentation officielle :
 
-.. code:: python 
-intersphinx_mapping = {'time': ('https://docs.python.org/2/library/time.html', None)}
-intersphinx_mapping = {'datetime': ('https://docs.python.org/2/library/datetime.html', None)}
+https://docs.python.org/2/library/time.html
+https://docs.python.org/2/library/datetime.html
 
