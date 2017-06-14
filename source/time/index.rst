@@ -160,7 +160,7 @@ Arrow
 
 Inspiré de moment.js et request, Arrow est une bibliothèque Python offrant une approche différente pour créer, manipuler et formatter des dates ou des times. Elle fournit une API intelligente qui supporte plusieurs scénarios de création. Ca permet ainsi de travailler avec moins d'importations et moins de code.
 
-Exemple 
+Exemple (basique d'affichage et de traitement de date)
 
 $ pip install arrow
 
@@ -196,7 +196,7 @@ $ pip install arrow
 >>> local.humanize(locale='ko_kr')
 '1시간 전'
 
-Sources : http://arrow.readthedocs.io/en/latest/
+Sources et plus d'infos : http://arrow.readthedocs.io/en/latest/
 
 ---------
 Datetime
