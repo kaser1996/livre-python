@@ -238,5 +238,7 @@ Time en revanche à accès à l'horloge, aux données CPU et également à son t
 Documentation officielle :
 
 https://docs.python.org/2/library/time.html
+
+
 https://docs.python.org/2/library/datetime.html
 
