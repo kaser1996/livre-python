@@ -220,8 +220,7 @@ Affichera :
 - tzinfo
 Classe abstraite utilisée par datetime et time pour fournir une notion personnalisable de réglage de l'heure (par exemple, pour l'heure d'été).
 
-Exemple de classe tzinfo_.
-.. _Python: https://docs.python.org/2.3/lib/datetime-tzinfo.html
+Exemple : https://docs.python.org/2.3/lib/datetime-tzinfo.html
 
 
 La méthode strftime(format) converti une date en string et permet le formatage de celle-ci. Strptime(format) permet,quand à elle, de convertir en datetime.
