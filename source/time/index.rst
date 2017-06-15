@@ -152,7 +152,7 @@ Il s'agit de Time.sleep(secs) avec secs = le nombre de secondes à attendre. Il 
     >>> time.sleep(1000)
 
 ---------
-''Arrow''
+``Arrow``
 ---------
 
 Inspiré de moment.js et request, Arrow est une bibliothèque Python offrant une approche différente pour créer, manipuler et formatter des dates ou des times. Elle fournit une API intelligente qui supporte plusieurs scénarios de création. Ca permet ainsi de travailler avec moins d'importations et moins de code.
